@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">test task android</string>
+
+    <!--TabLayout-->
+    <string name="table_text_carrier">Перевізники</string>
+    <string name="table_text_porter">Вантажники</string>
+    <string name="table_text_worker">Будівельники</string>
+
+</resources>
