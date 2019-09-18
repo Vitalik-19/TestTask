@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     style="@style/backgroundFragmentItem"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -37,6 +36,7 @@
                 android:id="@+id/firstName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
                 android:text="Шевченко Іван"
                 android:textColor="@android:color/black"
                 android:textSize="24sp" />
@@ -105,12 +105,14 @@
                     android:id="@+id/orderImageView"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    tools:srcCompat="@drawable/ic_order" />
+                    android:background="@drawable/ic_order" />
 
                 <TextView
                     android:id="@+id/orderTextView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
                     android:text="Виконано замовлень"
                     android:textColor="@android:color/black" />
             </LinearLayout>
@@ -124,12 +126,14 @@
                     android:id="@+id/scheduleImageView"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    tools:srcCompat="@drawable/ic_schedule" />
+                    android:background="@drawable/ic_schedule" />
 
                 <TextView
                     android:id="@+id/scheduleTextView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
                     android:text="Графік роботи"
                     android:textColor="@android:color/black" />
             </LinearLayout>
@@ -143,12 +147,14 @@
                     android:id="@+id/daysImageView"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    tools:srcCompat="@drawable/ic_order" />
+                    android:background="@drawable/ic_days" />
 
                 <TextView
                     android:id="@+id/daysTextView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
                     android:text="Робочі дні"
                     android:textColor="@android:color/black" />
             </LinearLayout>
@@ -163,6 +169,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Замовити" />
+        android:text="Замовити"
+        android:textSize="24sp" />
 
 </LinearLayout>
